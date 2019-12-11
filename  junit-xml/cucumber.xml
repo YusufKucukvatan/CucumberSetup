@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.125907">
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Page Test Scenario" time="8.125907">
+        <system-out>
+            <![CDATA[Given User is already on Login Page.........................................passed
+When User clicks on Login button on main page...............................passed
+Then User enters "yusuf@kucukvatan.com" and "Boshnack01"....................passed
+Then User clicks on login button............................................passed
+Then User is landing Home Page..............................................passed
+Given User is already on Home Page..........................................passed
+When User clicks on Calendar button.........................................passed
+Then User lands on Calendar Page............................................passed
+When User clicks on New button..............................................passed
+Then User lands on Create New Event Page....................................passed
+Then User inserts the information and click Save button.....................passed
+Then User lands on recently created event page..............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

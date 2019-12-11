@@ -1,0 +1,180 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 35,
+        "name": "Free CRM Login Page Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-page-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2794759221,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is already on Login Page",
+            "match": {
+              "location": "LoginPageSteps.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1841016712,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on Login button on main page",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_on_Login_button_main_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194350004,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters \"yusuf@kucukvatan.com\" and \"Boshnack01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "yusuf@kucukvatan.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Boshnack01",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginPageSteps.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50219929,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2007485115,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is landing Home Page",
+            "match": {
+              "location": "LoginPageSteps.user_is_landing_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9395465,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is already on Home Page",
+            "match": {
+              "location": "LoginPageSteps.user_is_already_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174358590,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on Calendar button",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_on_new_calendar_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22581811,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User lands on Calendar Page",
+            "match": {
+              "location": "LoginPageSteps.user_lands_on_calendar_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79573834,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on New button",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_on_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22974080,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User lands on Create New Event Page",
+            "match": {
+              "location": "LoginPageSteps.user_lands_on_create_new_event_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 827032124,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User inserts the information and click Save button",
+            "match": {
+              "location": "LoginPageSteps.user_inserts_the_information_and_click_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102159946,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User lands on recently created event page",
+            "match": {
+              "location": "LoginPageSteps.user_lands_on_recently_created_event_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/yusufkucukvatan/Desktop/CucumberSetup/src/main/java/Features/login.feature"
+  }
+]
